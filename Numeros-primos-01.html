@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Teste de Primos 1</title>
+        <link rel="stylesheet" href="Numeros-primos-01.css">
+    </head>
+
+    <body>
+        <div id="div_titulo" class="div_geral">
+            Testando números inteiros se primos
+        </div>
+
+        <div id="div_numero" class="div_geral">
+            Número
+            <input type="text" id="inp_numero" class="inp_geral">
+            <button id="btn_aval" class="btn_geral" onclick="avalPrimo()">
+                Avaliar
+            </button>
+        </div>
+
+        <div id="div_resultado" class="div_geral">
+            <p id="par_numero" class="par_geral">
+                O número
+            </p>
+            
+            <input type="text" id="inp_resultado" class="inp_geral">
+
+            <p id="par_resultado" class="par_geral">
+                é primo.
+            </p>
+        </div>
+
+        <div id="div_limpar" class="div_geral">
+            <button id="btn_limpar" class="btn_geral" onclick="limparCampos()">
+                Limpar campos
+            </button>            
+        </div>
+
+        <script src="Numeros-primos-01.js"></script>
+    </body>
+</html>

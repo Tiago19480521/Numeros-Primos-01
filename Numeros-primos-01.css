@@ -1,0 +1,78 @@
+:root {
+    --main-radius: 1rem;
+    --input-radius: 1rem;
+    --font-default: 'Maiandra GD';
+    /* --font-default: 'Lucida Sans'; */
+    /* --font-default: 'Mate'; */
+    /* --font-default: 'Calibri'; */
+    /* --font-default: 'Eras ITC'; */
+    /* --font-default: 'Montserrat', serif; */
+    --font-style: italic;
+}
+
+/*------------------------------------------------------*/
+/* ELEMENTOS: */
+
+html {
+	font-size: 1.42vh;
+    /* 10 px ~= 1 rem */
+    background-color: bisque; 
+}
+
+.div_geral {
+    display: flex;
+    justify-content: center;
+
+    border: 0.5rem solid rgb(50% 10% 30%);
+    border-radius: 2rem;
+    height: 8rem;
+    padding-top: 3rem;
+    margin-bottom: 0.8rem;
+
+    background-color: rgb(0% 30% 40%);
+    color:rgb(0% 90% 20%);
+    font-family: var(--font-default);
+    font-size: 3rem;
+    font-weight: bold;    
+}
+
+#div_titulo {
+    border: 0.5rem solid rgb(0% 50% 30%);
+    border-radius: 2rem;
+    height: 8rem;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+
+    background-color: rgb(10% 20% 90%);
+    color:rgb(60% 90% 90%);
+    font-family: var(--font-default);
+    font-size: 4.5rem;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+}
+
+.inp_geral {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    height: 3rem;
+    text-align: center;
+}
+
+.par_geral {
+    height: 4rem;
+    margin-bottom: 2rem;
+    background-color: rgb(0% 0% 90%);
+    color:rgb(90% 90% 90%);
+    font-family: var(--font-default);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.btn_geral {
+    border: 0.5rem solid rgb(0% 50% 80%);
+    border-radius: 2rem;
+    height: 4rem;
+    background-color: rgb(70% 40% 0%);
+}
