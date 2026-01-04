@@ -58,6 +58,16 @@ html {
     margin-right: 1.5rem;
     height: 3rem;
     text-align: center;
+
+    font-family: var(--font-default);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 3rem;
+    color: rgb(10% 50% 10%)
+}
+
+#inp_resultado {
+    width: 60rem;
 }
 
 .par_geral {
